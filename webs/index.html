@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CSS Third Class</title>
+    <link rel="stylesheet" href="./fontawesome-free-5.8.1-web/css/all.css" />
+
+    <style>
+        @font-face {
+            font-family: 'RobotoItalic';
+            src: url('fonts/RobotoMono-Italic.ttf');
+        }
+
+        #container {
+            width: 85%;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        #video {
+            width: 65%;
+        }
+
+        #card {
+            width: 40%;
+            height: 350px;
+            background-color: #68A7DC;
+            opacity: 0.6;
+            position: absolute;
+            right: 0;
+            top: 40px;
+        }
+
+        #card:hover {
+            box-shadow: 2px 2px 10px gray;
+        }
+
+        #card>div {
+            /* width: 100%; */
+            border: 1px solid gray;
+            margin-top: 30px;
+        }
+
+        #card>p {
+            height: 250px;
+            font-size: 20px;
+            padding: 0 10px;
+            text-align: justify;
+            overflow: hidden;
+        }
+
+        section>p {
+            font-family: RobotoItalic;
+            line-height: 1.5;
+        }
+
+
+        section>p::first-letter {
+            font-size: 100px;
+            line-height: 75px;
+            float: left;
+        }
+
+        section>p::first-line {
+            letter-spacing: 1em;
+            text-transform: uppercase;
+        }
+
+        #btn {
+            width: 60px;
+            height: 60px;
+            background-color: blueviolet;
+            border-radius: 50%;
+            position: fixed;
+            right: 30px;
+            bottom: 30px;
+            text-align: center;
+        }
+
+        #btn>i {
+            margin-top: 15px;
+            font-size: 30px;
+            color: antiquewhite;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <video muted autoplay loop id="video">
+            <source src="videos/video.mp4" type="video/mp4">
+        </video>
+        <div id="card">
+            <div>
+
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id suscipit veritatis nulla itaque quos fugit
+                voluptatum blanditiis velit pariatur, dolore odio dolores omnis vero illo autem est quisquam ipsum.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo molestiae mollitia unde, suscipit
+                officia facere consectetur? Ipsa, sit recusandae? Perspiciatis, voluptates dolorem. Fugit, a ipsa rem
+                ducimus nobis voluptatum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat excepturi
+                assumenda itaque debitis aliquid fuga aut quidem vitae nesciunt provident, obcaecati saepe tenetur
+                delectus aperiam voluptate voluptatibus veniam temporibus. </p>
+            <div>
+
+            </div>
+        </div>
+    </div>
+    <section>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id suscipit veritatis nulla itaque quos fugit sunt
+            voluptatum blanditiis velit pariatur, dolore odio dolores omnis vero illo autem est quisquam ipsum.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo molestiae mollitia unde, suscipit
+            officia facere consectetur? Ipsa, sit recusandae? Perspiciatis, voluptates dolorem. Fugit, a ipsa rem neque
+            ducimus nobis voluptatum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat excepturi
+            assumenda itaque debitis aliquid fuga aut quidem vitae nesciunt provident, obcaecati saepe tenetur nostrum
+            delectus aperiam voluptate voluptatibus veniam temporibus. </p>
+    </section>
+    <div id="btn">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+</body>
+
+</html>
