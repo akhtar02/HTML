@@ -1,0 +1,29 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.curved{
+    background-color: #ff3c00;
+    color: #fff;
+    text-align: center;
+    
+}
+.curved h1{
+    font: 6rem;
+    font-family: sans-serif;
+    margin-top: 0;
+    padding-top: 70px;
+}
+
+.curved p{
+    font-size: 1.7rem;
+    margin: 0 5rem 0 5rem;
+}
+
+.curved svg{
+    display: block;
+}
+
