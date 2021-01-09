@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #589ed9;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+.card{
+    
+    height: 400px;
+    width: 300px;
+
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.fa-weibo{
+    font-size: 72px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.title{
+    color: #fff;
+    margin-bottom: 20px;
+    
+}
+input{
+    height: 40px;
+    width: 70%;
+    padding: 0;
+}
+.input-field input{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-left: 6px;
+    font-size: 12px;
+    outline: none;
+    margin: 0;
+    border: none;
+    
+}
+.input-field>.inputemail{
+border-bottom: 1px solid #000;
+}
+.form-input input[type=submit]{
+    border-radius: 5px;
+    height: 45px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #2186d4;
+    margin-top: 15px;
+    border: none;
+    color: #fff;
+}
+
+.footer p{
+    color: #fff;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.footer p a {
+	font-weight: 600;
+	text-decoration: none;
+	color: #fff;
+}
